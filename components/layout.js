@@ -3,18 +3,18 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import localFont from 'next/font/local';
-import { Inter } from 'next/font/google'
+//import localFont from 'next/font/local';
+//import { Inter } from 'next/font/google'
 
-export const suisse = localFont({ src: '../public/fonts/SuisseIntl-Regular-WebM.woff2' })
+//export const suisse = localFont({ src: '../public/fonts/SuisseIntl-Regular-WebM.woff2' })
 
 
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-  axes: ['slnt'],
-})
+// const inter = Inter({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-inter',
+//   axes: ['slnt'],
+// })
 
 
 const name = 'Dawid Cedrych';
