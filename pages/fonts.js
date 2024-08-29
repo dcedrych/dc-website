@@ -3,10 +3,10 @@ import localFont from 'next/font/local';
  
 
  
-export const roboto_mono = Roboto_Mono({
-    subsets: ['latin'],
-    display: 'swap',
-    variable: "--font-test",
-  })
+// export const roboto_mono = Roboto_Mono({
+//     subsets: ['latin'],
+//     display: 'swap',
+//     variable: "--font-test",
+//   })
 
-export const suis = localFont({ src: '../public/fonts/SuisseIntl-Regular-WebM.woff2' })
+// export const suis = localFont({ src: '../public/fonts/SuisseIntl-Regular-WebM.woff2' })
